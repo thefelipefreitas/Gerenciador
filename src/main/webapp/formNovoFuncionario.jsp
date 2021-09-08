@@ -10,11 +10,11 @@
 		
 		<form action="${ linkServletNovoFuncionario }" method="post">
 		
-			Nome: <input type="text" name="nome"/>
-			Data Nascimento: <input type="text" name="nascimento"/>
-			Cpf: <input type="text" name="cpf"/>
-			Email: <input type="text" name="email"/>
-			Telefone: <input type="text" name="telefone"/>
+			Nome: <input type="text" name="nome"/> <br />
+			Data Nascimento: <input type="text" name="nascimento"/> <br />
+			Cpf: <input type="text" name="cpf"/> <br />
+			Email: <input type="text" name="email"/> <br />
+			Telefone: <input type="text" name="telefone"/> <br />
 		
 			<input type="submit" />
 		

@@ -43,6 +43,7 @@ public class NovoFuncionarioServlet extends HttpServlet {
 		banco.adicionaFuncionario(funcionario);
 		
 		request.setAttribute("funcionario", funcionario.getNome());
+		response.sendRedirect("listaFuncionarios");
 
 	}
 
