@@ -25,6 +25,8 @@
 					<strong>CPF: </strong>${ f.cpf } <br />
 					<strong>Email: </strong>${ f.email } <br />
 					<strong>Telefone: </strong>${ f.telefone } <br />
+					<a href="/gerenciamentos/mostraFuncionario?id=${ f.id }">alterar</a>
+					<a href="/gerenciamentos/removeFuncionario?id=${ f.id }">remover</a>
 				</li>
 			--------------------------------------------------------
 			</c:forEach>
