@@ -9,6 +9,17 @@ public class Banco {
 	private static List<Funcionario> lista = new ArrayList<>();
 	private static Integer chaveSequencial = 1;
 
+	static {
+		Funcionario funcionario = new Funcionario();
+		funcionario.setId(chaveSequencial++);
+		funcionario.setNome("Tatiana Mendes");
+		funcionario.setCpf("923.201.742-09");
+		funcionario.setEmail("tati@gmail.com");
+		funcionario.setTelefone("3872-9382");
+		lista.add(funcionario);
+
+	}
+
 	public void adicionaFuncionario(Funcionario funcionario) {
 		funcionario.setId(Banco.chaveSequencial++);
 		lista.add(funcionario);

@@ -11,9 +11,6 @@
 <title>Lista de Funcionários</title>
 </head>
 	<body>
-		<c:if test="${ not empty funcionario }">
-				Funcionario ${ funcionario } cadastrado! <br />
-		</c:if>
 		
 		<strong>Lista de Funcionários:</strong> <br />
 		<ul>

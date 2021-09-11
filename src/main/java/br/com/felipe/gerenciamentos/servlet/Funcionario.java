@@ -6,7 +6,7 @@ public class Funcionario {
 
 	private int id;
 	private String nome;
-	private Date dataNasc;
+	private Date dataNasc = new Date();
 	private String cpf;
 	private String email;
 	private String telefone;
